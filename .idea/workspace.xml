@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0c482c-fbd2-4ed4-9b8d-77ada32a5230" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SinglyLinkedList.java" afterDir="false" />
+    <list default="true" id="6f0c482c-fbd2-4ed4-9b8d-77ada32a5230" name="Changes" comment="added singly linkedList implementation">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,16 @@
       <option name="presentableId" value="Default" />
       <updated>1663306882584</updated>
       <workItem from="1663306883805" duration="633000" />
-      <workItem from="1663308402154" duration="1245000" />
+      <workItem from="1663308402154" duration="1684000" />
     </task>
+    <task id="LOCAL-00001" summary="added singly linkedList implementation">
+      <created>1663309680994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663309680994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added singly linkedList implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added singly linkedList implementation" />
   </component>
 </project>
