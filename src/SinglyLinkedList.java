@@ -43,10 +43,27 @@ public class SinglyLinkedList {
         System.out.print(" <tail>");
     }
 
+    /*
+     * this is the fucntion to add a new element at the head of the linkedlist
+     */
+
     public void addElementFirst(int value) {
         Node newNode = new Node(value);
         newNode.next = head;
         head = newNode;
+    }
+
+    public void addElementLast(int value) {
+        Node newNode = new Node(value);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        Node current = head;
+        while (null != current.next) {
+            current = current.next;
+        }
+        current.next = newNode;
     }
 
     public static void main(String[] args) {
@@ -65,7 +82,10 @@ public class SinglyLinkedList {
         s11.addElementFirst(116);
         s11.addElementFirst(1169);
         s11.display();
-
+        s11.addElementLast(116229);
+        s11.addElementLast(0);
+        s11.addElementLast(8);
+        s11.display();
         s11.length();
 
     }
