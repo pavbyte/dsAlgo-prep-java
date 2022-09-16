@@ -12,6 +12,22 @@ public class SinglyLinkedList {
         }
     }
 
+    // to find length of a linked list we will just add a counter or can make a new function
+
+    public void length(){
+        int count=0;
+        Node current=head;
+        while (current!=null){
+            count++;
+            current=current.next;
+        }
+        System.out.println("\nlength of the linked-list is " + count);
+    }
+
+    /* we could have added a counter and printed it in the display method itself
+    we did it in a separate function for the separation of concern and make our code modular
+     */
+
     public void display(){
         System.out.println("We are about to print our LinkedList");
         Node current=head;
@@ -36,6 +52,8 @@ public class SinglyLinkedList {
         third.next=fourth;
 
         s11.display();
+
+        s11.length();
 
     }
 

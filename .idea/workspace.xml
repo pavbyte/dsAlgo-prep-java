@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0c482c-fbd2-4ed4-9b8d-77ada32a5230" name="Changes" comment="added singly linkedList implementation">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6f0c482c-fbd2-4ed4-9b8d-77ada32a5230" name="Changes" comment="added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663306882584</updated>
       <workItem from="1663306883805" duration="633000" />
-      <workItem from="1663308402154" duration="1684000" />
+      <workItem from="1663308402154" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="added singly linkedList implementation">
       <created>1663309680994</created>
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663309680994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added">
+      <created>1663310099943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663310099943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added singly linkedList implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added singly linkedList implementation" />
+    <MESSAGE value="added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added" />
   </component>
 </project>
